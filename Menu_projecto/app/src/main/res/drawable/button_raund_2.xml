@@ -1,0 +1,14 @@
+<?xml version ="1.0" encoding ="utf-8"?><!--  Learn More about how to use App Actions: https://developer.android.com/guide/actions/index.html -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <corners android:radius="16dp" />
+    <solid android:color="@color/colorButton" />
+
+
+<!--    <corners android:radius="16dp" />-->
+<!--    <stroke-->
+<!--        android:width="2dp"-->
+<!--        android:background="#FFF5EE"-->
+<!--        android:color="#FFF5EE" />-->
+
+</shape>

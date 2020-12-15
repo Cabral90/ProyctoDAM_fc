@@ -1,0 +1,126 @@
+<resources>
+	<string-array name="direcion">
+		<item>Elige una Direccion</item>
+		<item>Archivo Histórico de Comisiones Obreras de Cataluña</item>
+		<item>Avenida Carrilet</item>
+		<item>Avenida de Gaudí</item>
+		<item>Avenida de la Luz</item>
+		<item>Avenida de la Reina María Cristina</item>
+		<item>Avenida de Madrid </item>
+		<item>Avenida de Mistral</item>
+		<item>Avenida de Roma</item>
+		<item>Avenida de Sarriá</item>
+		<item>Avenida del Paralelo</item>
+		<item>Avenida Meridiana</item>
+		<item>Calle Comtal</item>
+		<item>Calle de Alcalá de Guadaíra </item>
+		<item>Calle de Andrade </item>
+		<item>Calle de Aragón </item>
+		<item>Calle de Arnau d Oms</item>
+		<item>Calle de Avinyó</item>
+		<item>Calle de Balmes</item>
+		<item>Calle de Buenos Aires </item>
+		<item>Calle de Cantabria </item>
+		<item>Calle de Córcega </item>
+		<item>Calle de Desfar</item>
+		<item>Calle de Entenza</item>
+		<item>Calle de Ferran</item>
+		<item>Calle de Gerona </item>
+		<item>Calle de Huelva</item>
+		<item>Calle de la Diputación </item>
+		<item>Calle de la Jota</item>
+		<item>Calle de la Princesa</item>
+		<item>Calle de Lepanto </item>
+		<item>Calle de Londres </item>
+		<item>Calle de Mallorca </item>
+		<item>Calle de Menorca </item>
+		<item>Calle de Montcada</item>
+		<item>Calle de Muntaner</item>
+		<item>Calle de París </item>
+		<item>Calle de Pelayo </item>
+		<item>Calle de Provenza</item>
+		<item>Calle de Ramon Albó</item>
+		<item>Calle de Sants</item>
+		<item>Calle de Valencia </item>
+		<item>Calle del Alcalde de Móstoles </item>
+		<item>Calle del Capitán Arenas</item>
+		<item>Calle del Carmen </item>
+		<item>Calle del Concilio de Trento</item>
+		<item>Calle del Consejo de Ciento</item>
+		<item>Calle del Doctor Ferran</item>
+		<item>Calle del Doctor Pi i Molist</item>
+		<item>Calle del Rosellón </item>
+		<item>Calle Nueva de la Rambla</item>
+		<item>Calle Nueva de Porta</item>
+		<item>Calle Pujades</item>
+		<item>Carretera de Ribes</item>
+		<item>Casa de la Seda</item>
+		<item>Edificio Caixa Catalunya</item>
+		<item>Edificio de Correos de Barcelona</item>
+		<item>Edificio de la Caja de Pensiones de Barcelona</item>
+		<item>Estación de Correos</item>
+		<item>Estación de Jaume I</item>
+		<item>Estación de Urquinaona</item>
+		<item>Fomento del Trabajo Nacional</item>
+		<item>Fossar de les Moreres</item>
+		<item>Gran Vía de las Cortes Catalanas</item>
+		<item>Pasaje de la Esperanza</item>
+		<item>Pasaje de Porta</item>
+		<item>Paseo de Colón</item>
+		<item>Paseo de Fabra i Puig</item>
+		<item>Paseo de la Agrícola</item>
+		<item>Paseo de la Bonanova</item>
+		<item>Paseo de la Explanada</item>
+		<item>Paseo de Lluís Companys</item>
+		<item>Paseo de Maragall</item>
+		<item>Paseo del Borne</item>
+		<item>Paseo del Valle de Hebrón</item>
+		<item>Pla de Palau</item>
+		<item>Plaza de Can Fabra</item>
+		<item>Plaza de Cataluña</item>
+		<item>Plaza de España </item>
+		<item>Plaza de Gaudí</item>
+		<item>Plaza de George Orwell</item>
+		<item>Plaza de Ibiza</item>
+		<item>Plaza de la República </item>
+		<item>Plaza de la Sagrada Familia</item>
+		<item>Plaza de la Universidad </item>
+		<item>Plaza de las Glorias Catalanas</item>
+		<item>Plaza de Lesseps</item>
+		<item>Plaza de los Países Catalanes</item>
+		<item>Plaza de Mosén Jacinto Verdaguer</item>
+		<item>Plaza de Pablo Neruda</item>
+		<item>Plaza de San Cristóbal </item>
+		<item>Plaza de San Felipe Neri </item>
+		<item>Plaza de San Jaime</item>
+		<item>Plaza de Sants</item>
+		<item>Plaza de Tetuán</item>
+		<item>Plaza de Urquinaona</item>
+		<item>Plaza del Centro</item>
+		<item>Plaza del Cinco de Oros</item>
+		<item>Plaza del Diamante</item>
+		<item>Plaza del Doctor Letamendi</item>
+		<item>Plaza del Duque de Medinaceli</item>
+		<item>Plaza del Pedró</item>
+		<item>Plaza del Pino</item>
+		<item>Plaza del Rey </item>
+		<item>Plaza Francesc Macià</item>
+		<item>Plaza Molina </item>
+		<item>Plaza Real</item>
+		<item>Puerta del Ángel</item>
+		<item>Rambla de Brasil</item>
+		<item>Rambla de Guipúzcoa</item>
+		<item>Rambla de Prim</item>
+		<item>Rambla del Carmelo</item>
+		<item>Rambla del Raval</item>
+		<item>Ronda de la Universidad</item>
+		<item>Ronda de San Antonio</item>
+		<item>Ronda de San Pablo</item>
+		<item>Ronda de San Pedro</item>
+		<item>Ronda del General Mitre</item>
+		<item>Vía Augusta</item>
+		<item>Vía Julia</item>
+		<item>Vía Layetana</item>
+		<item>Viaducto de Vallcarca</item>
+	</string-array>
+</resources>

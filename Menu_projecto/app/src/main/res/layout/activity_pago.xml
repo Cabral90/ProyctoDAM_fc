@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.Proyeto_DAM2_Tienda_Qr.vista.tienda.Activity_pago">
+
+
+    <ScrollView
+        android:id="@+id/scrollViewEnLaTienda"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/nomTarjectaP"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:fontFamily="serif"
+                android:textSize="14sp"
+                android:hint="Nombre del propriectario de la tarjecta" />
+
+            <TextView
+                android:id="@+id/numTarjectaP"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:hint="Número de la tarjecta"
+                android:fontFamily="serif"
+                android:textSize="14sp"
+                android:inputType="number" />
+
+            <TextView
+                android:id="@+id/fechaTarjectaP"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:focusable="false"
+                android:fontFamily="serif"
+                android:textSize="14sp"
+                android:hint="Fecha de la  tarjecta  MM/AA" />
+
+            <com.google.android.material.textfield.TextInputLayout
+                app:passwordToggleEnabled="true"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <EditText
+                    android:id="@+id/cod_seguridad"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:inputType="numberPassword"
+                    android:hint="Confirma el codigo de seguirdad"
+                    android:fontFamily="serif"
+                    android:textSize="14sp" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Valor a pagar:"
+                    android:fontFamily="serif"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/totalPagarP"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:fontFamily="serif"
+                    android:hint="0.00 €"
+                    android:textSize="16sp" />
+
+            </LinearLayout>
+
+
+            <Button
+                android:id="@+id/btn_pagarP"
+                android:layout_width="342dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/button_raund"
+                android:text="Pagar y Finalizar la Compra"
+                android:textAllCaps="false"
+                android:textColor="@color/color7"
+                android:textSize="16sp" />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/layutMesaje"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="30dp"
+
+        android:layout_marginTop="90dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginRight="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" >
+
+        <TextView
+            android:hint="Compra terminada con Éxito"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:hint="Codigo QR refente a la factura"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <ImageView
+            android:layout_width="225dp"
+            android:layout_height="231dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/qrx" />
+
+        <TextView
+            android:hint="Por favor, Dirijase al pundo de pespacho de la tienda con la compra para terminar el proceso"
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

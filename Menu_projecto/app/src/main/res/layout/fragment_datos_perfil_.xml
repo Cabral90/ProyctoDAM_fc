@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layoutPerfil"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context="com.example.Proyeto_DAM2_Tienda_Qr.vista.usuario.fragmentos.DatosPerfil_Fragment">
+
+
+<!--    <ScrollView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="0dp"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.6"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent">-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textInfoDatosPersonal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="15dp"
+                android:fontFamily="@font/roboto"
+                android:gravity="center"
+                android:text="DATOS PERSONAL"
+                android:textColor="?attr/colorPrimaryDark"
+                android:textSize="20sp"
+
+                android:textStyle="bold"
+
+                android:typeface="normal" />
+
+            <!--            android:fontFamily="@font/Roboto-Regular"-->
+            <TextView
+                android:id="@+id/textNombrePerVisual"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginRight="25dp"
+                android:fontFamily="serif"
+                android:textSize="14sp"
+                android:text="Nombre" />
+
+
+            <TextView
+                android:id="@+id/textApellidoPerVisual"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="serif"
+                android:textSize="14sp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="25dp"
+
+                android:text="Apellido" />
+
+            <TextView
+                android:id="@+id/textFecha_nascPerVisual"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="25dp"
+                android:fontFamily="serif"
+                android:textSize="14sp"
+                android:text="Fecha_nasc" />
+
+            <TextView
+                android:id="@+id/textFonePerVisual"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="25dp"
+                android:fontFamily="serif"
+                android:textSize="14sp"
+
+                android:text="Telefono" />
+
+
+            <TextView
+                android:id="@+id/textInfoDatosResidencia"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="15dp"
+                android:fontFamily="@font/roboto"
+                android:gravity="center"
+                android:text="DATOS DE RESIDENCIA"
+                android:textColor="?attr/colorPrimaryDark"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/texProvinciaPerVisual"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="25dp"
+                android:fontFamily="serif"
+                android:textSize="14sp"
+                android:text="Provincia" />
+
+            <TextView
+                android:id="@+id/texCiudadPerVisual"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="25dp"
+
+                android:text="Ciudad" />
+
+            <TextView
+                android:id="@+id/textCallePerVisual"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="25dp"
+                android:fontFamily="serif"
+                android:textSize="14sp"
+                android:text="Calle" />
+
+
+            <LinearLayout
+                android:layout_width="340dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="25dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/texPisoPerVisual"
+                    android:layout_width="93dp"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="serif"
+                    android:textSize="14sp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="15dp"
+                    android:text="Piso" />
+
+                <TextView
+                    android:id="@+id/texPuertaPerVisual"
+                    android:layout_width="89dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="15dp"
+                    android:fontFamily="serif"
+                    android:textSize="14sp"
+                    android:text="Puerta" />
+
+                <TextView
+                    android:id="@+id/texCpPerVisual"
+                    android:layout_width="87dp"
+                    android:layout_height="29dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="15dp"
+                    android:fontFamily="serif"
+                    android:textSize="14sp"
+                    android:text="CP" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textInfoDatosPago"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="15dp"
+                android:fontFamily="@font/roboto"
+                android:gravity="center"
+                android:text="DATOS DE PAGO"
+                android:textColor="?attr/colorPrimaryDark"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/texNomTitularTargetaPerVisual"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="25dp"
+                android:fontFamily="serif"
+                android:textSize="14sp"
+                android:text="Titular de la Tarjeta de Pago" />
+
+            <TextView
+                android:id="@+id/texNumTargetaPerVisual"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="25dp"
+                android:fontFamily="serif"
+                android:textSize="14sp"
+                android:text="Número de Tarjecta" />
+
+            <TextView
+                android:id="@+id/texFechaTargetaPerVisual"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="serif"
+                android:textSize="14sp"
+                android:text="Fecha de Validad" />
+
+        </LinearLayout>
+<!--    </ScrollView>-->
+</ScrollView>

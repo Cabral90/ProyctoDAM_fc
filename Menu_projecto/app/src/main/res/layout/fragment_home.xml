@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+
+    android:orientation="vertical">
+
+    <ScrollView
+
+
+        android:layout_width="367dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+<!--            <TextView-->
+<!--                android:id="@+id/textViewFrag"-->
+<!--                android:layout_width="262dp"-->
+<!--                android:layout_height="68dp"-->
+<!--                android:layout_gravity="center"-->
+<!--                android:layout_marginTop="20dp"-->
+<!--                android:fontFamily="sans-serif-smallcaps"-->
+<!--                android:gravity="center"-->
+<!--                android:text="Bienvenido a la Tienda"-->
+<!--                android:textAllCaps="false"-->
+<!--                android:textSize="30sp"-->
+<!--                android:textStyle="bold" />-->
+
+            <TextView
+                android:id="@+id/textInfo1"
+                android:layout_width="297dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:background="@color/colorPrimary"
+                android:gravity="center"
+                android:hint="Productos mas Comprados"
+
+                android:textColorHint="@color/color7"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+                <androidx.viewpager.widget.ViewPager
+                    android:id="@+id/viewPager1"
+                    android:layout_width="match_parent"
+                    android:layout_height="247dp"
+                    android:clipToPadding="false"
+                    android:layout_marginTop="20dp"
+                    android:foregroundGravity="center"
+                    android:overScrollMode="never" />
+
+
+                <TextView
+                    android:id="@+id/txtInfo2"
+                    android:layout_width="297dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:textColorHint="@color/color7"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:background="@color/colorPrimary"
+                    android:hint="productos mas vistos" />
+
+
+            <LinearLayout
+                android:layout_width="353dp"
+                android:layout_height="419dp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="158dp"
+                    android:background="@color/color5"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="20dp"
+                        android:layout_height="2dp" />
+
+
+                    <LinearLayout
+                        android:layout_width="111dp"
+                        android:layout_height="150dp"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/img1"
+                            android:layout_width="120dp"
+                            android:layout_height="120dp"
+                            android:src="@raw/arroz" />
+
+                        <TextView
+                            android:id="@id/precio"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:hint="2,09 €" />
+
+                        <!--                        <TextView-->
+                        <!--                            android:id="@id/desc"-->
+                        <!--                            android:layout_width="match_parent"-->
+                        <!--                            android:layout_height="wrap_content"-->
+                        <!--                            android:hint="Arroz largo Carrefour 1 kg" />-->
+
+
+                    </LinearLayout>
+
+
+                    <TextView
+                        android:layout_width="20dp"
+                        android:layout_height="2dp"
+                        android:gravity="center" />
+
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="151dp"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/img2"
+                            android:layout_width="109dp"
+                            android:layout_height="123dp"
+                            android:src="@raw/azeite" />
+
+                        <TextView
+                            android:id="@id/precio"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:hint="4,97 €" />
+
+                        <!--                        <TextView-->
+                        <!--                            android:id="@id/desc"-->
+                        <!--                            android:layout_width="match_parent"-->
+                        <!--                            android:layout_height="43dp"-->
+                        <!--                            android:hint="El buen azeite Español" />-->
+
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="20dp"
+                        android:layout_height="2dp" />
+
+                </LinearLayout>
+
+
+                <TextView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp" />
+
+
+                <!--                hhfjdjd-->
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="157dp"
+                    android:background="@color/color5"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="20dp"
+                        android:layout_height="2dp" />
+
+
+                    <LinearLayout
+                        android:layout_width="122dp"
+                        android:layout_height="146dp"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/img3"
+                            android:layout_width="120dp"
+                            android:layout_height="120dp"
+                            android:src="@raw/pollo" />
+
+                        <TextView
+                            android:id="@id/precio"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:hint="5,99 €" />
+
+                        <!--                        <TextView-->
+                        <!--                            android:id="@id/desc"-->
+                        <!--                            android:layout_width="match_parent"-->
+                        <!--                            android:layout_height="wrap_content"-->
+                        <!--                            android:hint="Las patas de pollo a su gusto" />-->
+
+
+                    </LinearLayout>
+
+
+                    <TextView
+                        android:layout_width="20dp"
+                        android:layout_height="2dp"
+                        android:gravity="center" />
+
+
+                    <LinearLayout
+                        android:layout_width="117dp"
+                        android:layout_height="146dp"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/img4"
+                            android:layout_width="109dp"
+                            android:layout_height="123dp"
+                            android:src="@raw/pez" />
+
+                        <TextView
+                            android:id="@id/precio"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:hint="3,96 €" />
+
+                        <!--                        <TextView-->
+                        <!--                            android:id="@id/desc"-->
+                        <!--                            android:layout_width="match_parent"-->
+                        <!--                            android:layout_height="wrap_content"-->
+                        <!--                            -->
+                        <!--                            android:hint="Pescado de buena calidad" />-->
+
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="20dp"
+                        android:layout_height="2dp" />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+            <!--    </GridLayout>-->
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

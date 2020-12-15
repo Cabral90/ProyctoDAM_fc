@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.Proyeto_DAM2_Tienda_Qr.vista.usuario.fragmentos.datosResidencia_Fragmento">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="117dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginRight="100dp"
+        android:layout_marginBottom="8dp"
+        android:src="@drawable/ic_city"
+        app:layout_constraintBottom_toTopOf="@+id/scrollView3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:id="@+id/scrollView3"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="14dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <com.toptoche.searchablespinnerlibrary.SearchableSpinner
+                android:id="@+id/spinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:entries="@array/direcion" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/spinner"
+                android:background="#212121" />
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:id="@+id/ImputCalle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/spinner">
+
+                <AutoCompleteTextView
+                    android:id="@+id/calle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:focusable="false"
+                    android:fontFamily="serif"
+                    android:textSize="14sp"
+                    android:hint="Calle" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/ImputPiso"
+                    android:layout_width="197dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp">
+
+                    <AutoCompleteTextView
+                        android:id="@+id/piso"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Piso"
+                        android:fontFamily="serif"
+                        android:textSize="14sp"
+                        android:inputType="number" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/ImputPuerta"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp">
+
+                    <AutoCompleteTextView
+                        android:id="@+id/puerta"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="serif"
+                        android:textSize="14sp"
+                        android:hint="Puerta" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+            </LinearLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:id="@+id/ImputCiudad"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <AutoCompleteTextView
+                    android:id="@+id/ciudad"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="serif"
+                    android:textSize="14sp"
+                    android:hint="@string/ciudad" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:id="@+id/ImputFoneResi"
+                    android:layout_width="208dp"
+                    android:layout_height="wrap_content">
+
+                    <EditText
+                        android:id="@+id/foneFijo"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Telefono"
+                        android:fontFamily="serif"
+                        android:textSize="14sp"
+                        android:inputType="phone" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_marginRight="10dp"
+                    android:id="@+id/ImputCP"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <EditText
+                        android:id="@+id/cp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="C. Postal"
+                        android:fontFamily="serif"
+                        android:textSize="14sp"
+                        android:inputType="number" />
+                </com.google.android.material.textfield.TextInputLayout>
+            </LinearLayout>
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:id="@+id/ImputProvincia"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <AutoCompleteTextView
+                    android:id="@+id/provincia"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="serif"
+                    android:textSize="14sp"
+                    android:hint="@string/prov_ncia" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+            <!--            android:focusable="false"-->
+            <CheckBox
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center"
+                android:id="@+id/checkBoxResidencia"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="serif"
+                android:textSize="14sp"
+                android:text="Validar formulario" />
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

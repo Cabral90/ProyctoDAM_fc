@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout2"
+    app:cardCornerRadius="15dp"
+    android:background="@color/color2"
+    android:layout_margin="4dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    android:orientation="vertical">
+
+<!--    android:background="@drawable/button_raund_reg"-->
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="8dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imagProdutoR"
+            android:layout_width="185dp"
+            android:layout_height="157dp"
+            android:src="@drawable/perso" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginRight="10dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:id="@+id/nombreR"
+                    android:layout_width="173dp"
+                    android:layout_height="wrap_content"
+                    android:hint="Nombre"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/open_sans"
+                    android:typeface="normal" />
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/precioR"
+                    android:layout_width="33dp"
+                    android:layout_height="match_parent"
+
+                    android:fontFamily="@font/open_sans"
+                    android:hint="Precio"
+                    android:textAllCaps="false"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:typeface="normal" />
+
+                <TextView
+                    android:id="@+id/moneda"
+                    android:layout_gravity="right"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/roboto"
+                    android:textSize="16sp"
+                    android:hint=" €" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/infSubTotal"
+                    android:layout_width="70dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="2dp"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/open_sans"
+                    android:typeface="normal"
+                    android:hint="SubTotal:" />
+
+                <TextView
+                    android:id="@+id/subTotalR"
+                    android:gravity="left"
+                    android:layout_gravity="left"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/open_sans"
+                    android:hint="NHHH"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:typeface="normal" />
+
+                <TextView
+                    android:id="@+id/moneda2"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/roboto"
+                    android:textSize="16sp"
+                    android:layout_gravity="right"
+                    android:gravity="left"
+                    android:hint="€" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:gravity="left"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/descripcionR"
+                        android:layout_width="146dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="2dp"
+                        android:textStyle="bold"
+                        android:fontFamily="@font/open_sans"
+                        android:typeface="normal"
+                        android:hint="Descripcion"
+                        android:textSize="14sp" />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:gravity="center"
+
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/btn_menos2"
+
+                    android:layout_width="25dp"
+                    android:layout_height="22dp"
+                    android:background="@drawable/login_button_bk"
+                    android:gravity="center"
+                    android:src="@drawable/ic_remove_black_24dp" />
+
+                <TextView
+                    android:id="@+id/textCantUser2"
+                    android:layout_width="35dp"
+                    android:layout_height="33dp"
+                    android:fontFamily="@font/roboto"
+                    android:gravity="center"
+                    android:hint="1"
+                    android:textSize="15sp" />
+
+                <ImageView
+                    android:id="@+id/btn_mas2"
+                    android:layout_width="22dp"
+                    android:layout_height="22dp"
+                    android:background="@drawable/login_button_bk"
+                    android:gravity="center"
+                    android:src="@drawable/ic_add_black_24dp" />
+
+
+                <ImageView
+                    android:id="@+id/imageViewDeleteR"
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="20dp"
+                    android:gravity="center"
+                    android:src="@drawable/ic_delete2" />
+
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

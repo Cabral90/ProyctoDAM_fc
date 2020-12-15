@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!--    <color name="colorPrimary">#008577</color>-->
+<!--    <color name="colorPrimaryDark">#00574B</color>-->
+<!--    <color name="colorAccent">#D81B60</color>-->
+
+
+
+
+    <color name="colorPrimary">#00BCD4</color>
+    <color name="primaryLightColor">#768fff</color>
+    <color name="primaryDarkColor">#0039cb</color>
+    <color name="secondaryColor">#651fff</color>
+    <color name="colorAccent">#a255ff</color>
+    <color name="colorPrimaryDark">#00BCD4</color>
+    <color name="primaryTextColor">#ffffff</color>
+    <color name="secondaryTextColor">#ffffff</color>
+    <color name="colorFundo">#00BCD4</color>
+    <color name="colorNegro">#000000</color>
+    <color name="colorPP">#1E4CD5</color>
+
+    <color name="colorButton">#ffff</color>
+
+
+<!--     Colores Slider -->
+    #ffffff
+
+    <color name="color1">#424549</color>
+    <color name="color2">#7e455e</color>
+    <color name="color3">#796e25</color>
+    <color name="color4">#59717c</color>
+    <color name="color5"> #ffffff</color>
+    <color name="color6">#f5f5f5</color>
+    <color name="color7">#F0F0F0</color>
+
+</resources>
